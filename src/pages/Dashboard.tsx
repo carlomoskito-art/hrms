@@ -14,7 +14,7 @@ const Dashboard: React.FC = () => {
           <button className="bg-gray-300 text-black text-sm font-medium uppercase px-4 py-2.5 rounded hover:bg-gray-400 transition-colors">
             Generate Report
           </button>
-          <button className="bg-primary-orange text-white text-sm font-medium uppercase px-4 py-2.5 rounded hover:bg-orange-600 transition-colors">
+          <button className="bg-primary-yellow text-white text-sm font-medium uppercase px-4 py-2.5 rounded hover:bg-amber-600 transition-colors">
             New Action
           </button>
         </div>

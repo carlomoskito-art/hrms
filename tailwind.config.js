@@ -7,17 +7,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary-orange': '#FB8C00',
+        'primary-yellow': '#F59E0B',
         'primary-dark-blue': '#1F2544',
         'sidebar-bg': '#F1F6F9',
         'gray-text': '#717182',
         'dark-text': '#0A0A0A',
         'stat-blue': '#2B7FFF',
         'stat-green': '#00C950',
-        'stat-orange': '#FF6900',
+        'stat-yellow': '#FBBF24',
         'stat-purple': '#AD46FF',
-        'action-orange-bg': '#FFF7ED',
-        'action-orange-border': '#FFD6A7',
+        'action-yellow-bg': '#FFFBEB',
+        'action-yellow-border': '#FDE68A',
         'action-blue-bg': '#EFF6FF',
         'action-blue-border': '#BEDBFF',
         'action-purple-bg': '#FAF5FF',

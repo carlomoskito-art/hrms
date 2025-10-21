@@ -26,8 +26,8 @@ const Sidebar: React.FC = () => {
                 cn(
                   'flex items-center gap-2 py-4 px-7 text-sm font-medium uppercase tracking-wider transition-colors',
                   isActive
-                    ? 'bg-primary-orange/20 text-primary-orange border-r-4 border-primary-orange'
-                    : 'text-black hover:bg-primary-orange/10'
+                    ? 'bg-primary-yellow/20 text-primary-yellow border-r-4 border-primary-yellow'
+                    : 'text-black hover:bg-primary-yellow/10'
                 )
               }
             >
@@ -42,7 +42,7 @@ const Sidebar: React.FC = () => {
           <NavLink
             key={link.href}
             to={link.href}
-            className="flex items-center gap-2 py-4 px-7 text-sm font-medium uppercase tracking-wider text-black hover:bg-primary-orange/10 transition-colors"
+            className="flex items-center gap-2 py-4 px-7 text-sm font-medium uppercase tracking-wider text-black hover:bg-primary-yellow/10 transition-colors"
           >
             <link.icon size={24} />
             <span>{link.label}</span>

@@ -19,7 +19,7 @@ export const statCards: StatCardData[] = [
     title: 'Pending Appraisals',
     value: '28',
     icon: FileText,
-    iconBgColor: '#FF6900',
+    iconBgColor: '#FBBF24',
   },
   {
     title: 'Open Positions',
@@ -56,8 +56,8 @@ export const pendingActions: PendingAction[] = [
   {
     title: '15 Leave Applications',
     subtitle: 'Requires approval',
-    bgColor: 'bg-action-orange-bg',
-    borderColor: 'border-action-orange-border',
+    bgColor: 'bg-action-yellow-bg',
+    borderColor: 'border-action-yellow-border',
   },
   {
     title: '8 Training Requests',
